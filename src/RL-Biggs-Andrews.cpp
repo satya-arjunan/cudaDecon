@@ -5,12 +5,7 @@
 #include <algorithm>  // max(), min()
 #include <limits>  // epsilon()
 #include <stdio.h> // print to GPUmessage
-
-
-
-
-
-//#include <helper_timer.h>
+#include <helper_timer.h>
 
 bool notGoodDimension(unsigned num)
 /*! Good dimension is defined as one that can be fatorized into 2s, 3s, 5s, and 7s

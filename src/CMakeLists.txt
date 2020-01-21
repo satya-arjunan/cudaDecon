@@ -72,7 +72,6 @@ foreach(config DEBUG RELEASE RELWITHDEBINFO MINSIZEREL)
 
     foreach(var CMAKE_ARCHIVE_OUTPUT_DIRECTORY_${config} CMAKE_LIBRARY_OUTPUT_DIRECTORY_${config} CMAKE_RUNTIME_OUTPUT_DIRECTORY_${config})
         set(${var} "${CMAKE_BINARY_DIR}/${platform_dir}-${config}")
-        string(TOLOWER "${${var}}" ${var})
     endforeach()
 
 endforeach()
